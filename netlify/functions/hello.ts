@@ -14,7 +14,10 @@ function getMemoryConfig()  {
   return result;
 }
 
+const mem = "4gb";
+
 export const config: Config = {
   path: '/api/hello',
-  ...getMemoryConfig() 
+  //....getMemoryConfig()
+  memory: mem
 }
