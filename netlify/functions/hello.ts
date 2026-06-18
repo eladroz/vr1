@@ -17,6 +17,7 @@ function getMemoryConfig()  {
 */
 
 const mem = "4gb";
+console.warn("*** mem:", mem);
 
 export const config: Config = {
   path: '/api/hello',
