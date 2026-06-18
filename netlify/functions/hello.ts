@@ -5,6 +5,5 @@ export default async (_req: Request, _context: Context) => {
 }
 
 export const config: Config = {
-  path: '/api/hello',
-  memory: '1gb'
+  path: '/api/hello'
 }
